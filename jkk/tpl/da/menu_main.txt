@@ -1,0 +1,30 @@
+
+#Kristus.dk
+.|Forside|Gå til websidens forside
+text[EXT]?id=14000|Introduktion|En god introduktion til grundlæggende lærdomme
+text[EXT]?id=35300|Fakta om Kirken|Introduktion af kirken tilpasset danske forhold
+text[EXT]?id=30000|Skolemateriale|Kirkens officielle skolemateriale
+
+#Skrifterne
+text[EXT]?id=71000|Gamle Testamente|Læs Det Gamle Testamente på dansk
+text[EXT]?id=72000|Ny Testamente|Læs Det Ny Testamente på dansk
+text[EXT]?id=60000|Mormons Bog|Læs Mormons Bog på dansk
+text[EXT]?id=40000|Lære og Pagter|Læs Lære og Pagter på dansk
+text[EXT]?id=50000|Den Kostelige Perle|Læs Den Kostelige Perle på dansk
+
+#Find
+search[EXT]|Søg på kristus.dk|Søg i alle sidens bøger og andre tekster
+lookup[EXT]?id=books|Alle bøger|Lister over alle sidens bøger og tekster
+;info[EXT]?c=top|Top 20|Vis de 20 mest populære/læste tekster
+
+#Andre medier
+image[EXT]|Billed-arkiv|Samling af billeder som relaterer sig til Jesu Kristi Kirke
+song[EXT]|Sangbøger|Kirkens officielle sangbøger med tekster, MIDI og MP3 filer
+master[EXT]|Mester-skriftsteder|100 vigtige skriftsteder
+chain[EXT]|Skriftsteds-kæder|Skriftsteder samlet i en bestemt rækkefølge for at belyse et princip
+text[EXT]?id=61600|Lyt til Mormons Bog|Lyt til Mormons Bog på dansk
+
+#Andet
+blog[EXT]|Nyheder/BLOG/RSS|Læs om nyheder, opdateringer og meget andet
+info[EXT]?id=faq|FAQ / OSS|Ofte stillede spørgsmål
+info[EXT]?id=handicap|[STR[HELP_HANDICAP]]|Indstillinger og værktøjer til synshæmmede og blinde

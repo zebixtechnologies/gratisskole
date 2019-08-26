@@ -1,0 +1,151 @@
+<div class="standard-title">[PAGE[TITLE]]</div>
+
+<script language="JavaScript">
+<!-- Begin
+
+var cols=8;
+var rows=5;
+var theme='templer'
+
+
+
+
+var pics=new Array();
+
+for(i=0;i<=((cols*rows)/2);i++){
+	pics[i]=new Image();
+	pics[i].src='data/game/memory/'+theme+'/image'+i+'.gif';
+}
+
+var map=new Array();
+p=1;
+for(i=0;i<(cols*rows);i+=2){
+	map[i]=p;
+	map[i+1]=p;
+	p++;
+}
+
+var user=new Array();
+var temparray=new Array();
+var clickarray=new Array(0,0);
+var ticker, sec, min, ctr, id, oktoclick, finished;
+
+function init()
+{
+	clearTimeout(id);
+	for(i=0;i<(cols*rows);i++){ user[i]=0; }
+
+	ticker = 0;
+	min = 0;
+	sec = 0;
+	ctr = 0;
+	oktoclick = true;
+	finished = 0;
+	document.f.b.value = "";
+
+	scramble();
+	runclk();
+
+	for(i=0;i<(cols*rows);i++){
+		document.f[('img'+i)].src = "data/game/memory/"+theme+"/image0.gif";
+	}
+}
+
+function runclk()
+{
+	min = Math.floor(ticker/60);
+	sec = (ticker-(min*60))+'';
+	if(sec.length == 1) {sec = "0"+sec};
+	ticker++;
+	document.f.b.value = min+":"+sec;
+	id = setTimeout('runclk()', 1000);
+}
+
+function scramble()
+{
+	for(z=0;z<5;z++){
+		for (x=0;x<(cols*rows);x++){
+			temparray[0] = Math.floor(Math.random()*(cols*rows));
+			temparray[1] = map[temparray[0]];
+			temparray[2] = map[x];
+			map[x] = temparray[1];
+			map[temparray[0]] = temparray[2];
+		}
+	}
+}
+
+function showimage(but)
+{
+	if(oktoclick){
+		oktoclick = false;
+		document.f[('img'+but)].src = 'data/game/memory/'+theme+'/image'+map[but]+'.gif';
+		if(ctr == 0){
+			ctr++;
+			clickarray[0] = but;
+			oktoclick = true;
+		}else{
+			clickarray[1] = but;
+			ctr = 0;
+			setTimeout('returntoold()', 600);
+		}
+	}
+}
+
+function returntoold()
+{
+	if((clickarray[0] == clickarray[1]) && (!user[clickarray[0]])){
+		document.f[('img'+clickarray[0])].src = "data/game/memory/"+theme+"/image0.gif";
+		oktoclick = true;
+	}else{
+		if(map[clickarray[0]] != map[clickarray[1]]){
+			if (user[clickarray[0]] == 0){
+				document.f[('img'+clickarray[0])].src = "data/game/memory/"+theme+"/image0.gif";
+			}
+			if (user[clickarray[1]] == 0) {
+				document.f[('img'+clickarray[1])].src = "data/game/memory/"+theme+"/image0.gif";
+			}
+		}
+		if(map[clickarray[0]] == map[clickarray[1]]){
+			if (user[clickarray[0]] == 0&&user[clickarray[1]] == 0) { finished++; }
+			user[clickarray[0]] = 1;
+			user[clickarray[1]] = 1;
+		}
+		if(finished>=((cols*rows)/2)){
+			alert('Du løste den på '+document.f.b.value+' !');
+			init();
+		}else{
+			oktoclick = true;
+		}
+	}
+}
+
+//  End -->
+</script>
+
+<center style="text-align:center">
+<form name="f">
+<table border="0" cellpadding="0" cellspacing="2" style="margin-right:auto;margin-left:auto">
+
+<script language="javascript">
+<!-- Begin
+
+for(r=0;r<rows;r++){
+	document.write('<tr>');
+	for (c = 0; c < cols; c++) {
+		document.write('<td align="center">');
+		document.write('<a href="javascript:showimage('+((cols*r)+c)+')" onClick="document.f.b.focus()">');
+		document.write('<img src="[DIR[DATA]]data/game/memory/'+theme+'/image0.gif" name="img'+((cols*r)+c)+'" border="0">');
+		document.write('</a></td>');
+	}
+	document.write('</tr>');
+}
+
+// End -->
+</script>
+
+</table>
+
+<br /><br />
+<input type="button" value="         " name="b" onClick="init()">
+</form>
+</div>

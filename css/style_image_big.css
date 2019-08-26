@@ -1,0 +1,128 @@
+
+
+div.image-front-wrap {
+	padding-top:14px;
+	padding-left:13px;
+	padding-bottom:14px;
+	border-bottom:1px solid #333333;
+}
+
+td.image-front-text-wrap {
+	vertical-align:top;
+	width:266px;
+	text-align:justify;color:#333333;
+	font-size:13px;
+}
+
+td.image-pane-width {
+	vertical-align:top;
+	width:266px;
+}
+
+img.image-front {
+	border:none;
+	width:266px;
+	height:149px;
+}
+
+td.image-front-navigation {
+	vertical-align:top;
+	width:266px;
+	text-align:justify;
+	color:#333333;
+	font-size:13px;
+}
+
+
+
+
+
+
+
+
+
+table.list-wrap {
+	border-top:1px solid #666666;
+	border-right:1px solid #666666;
+	border-left:1px solid #666666;
+	font-family:verdana,arial,sans-serif;
+	width:266px;
+}
+
+th.list-header {
+	font-weight:bold;
+	border-bottom:1px solid #666666;
+	font-size:12px;
+	padding-top:1px;
+	padding-bottom:2px;
+	color:#333333;
+	letter-spacing:1px;
+	background:url(http://www.zenos.dk/jkk2/image/top_bar.jpg);
+	/* background-color:#C4D1D7; */
+
+}
+
+td.list-item-label {
+	text-align:left;
+	width:75px;
+	border-right:1px solid #666666;
+	border-bottom:1px solid #666666;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	padding:2px;
+	text-align:left;
+	color:#666666;
+}
+
+td.list-item-value {
+	text-align:left;
+	border-bottom:1px solid #666666;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	text-align:left;
+	padding:2px;
+	padding-left:4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+table.image-list-header {
+	width:552px;
+	border:1px solid #333333;
+}
+
+td.image-list-header-search {
+	text-align:left;
+	padding:3px 4px 4px 4px;
+	font-size:13px;
+	border-bottom:1px solid #333333;
+	background-color:##ffffff;
+}
+
+td.image-list-header-rows {
+	font-size:13px;
+	padding:4px 2px 4px 4px;
+	text-align:left;
+}
+
+td.image-list-header-pages {
+	font-size:13px;
+	padding:4px 4px 4px 2px;
+	text-align:right;
+}
+
+td.image-list-header-item {
+	padding:0 2px 0 2px;
+	font-size:13px;
+	width:12px;
+}

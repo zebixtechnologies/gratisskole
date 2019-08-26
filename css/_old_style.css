@@ -1,0 +1,923 @@
+
+/** DEFAULT **/
+
+body {
+	background-color:#E6E6E6;
+	text-align:center;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+}
+
+td {
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+}
+
+th {
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	background-color:#eeeeee;
+}
+
+form {
+	display:inline;
+}
+
+
+
+/** MAIN PAGE **/
+
+/* Top */
+table.top {
+	margin-left:auto;
+	margin-right:auto;
+	background:url(http://www.zenos.dk/jkk2/image/top.jpg);
+	width:750px;
+	height:9px;
+}
+
+table.top-block {
+	margin-left:auto;
+	margin-right:auto;
+	background:url(http://www.zenos.dk/jkk2/image/top_block.jpg);
+	width:750px;
+	height:60px;
+}
+
+img.top-block-img {
+	border:none;
+	width:750px;
+	height:56px;
+}
+
+td.top-block-img-wrap {
+	vertical-align:top;
+}
+
+
+/* Path */
+table.path {
+	width:750px;
+	height:23px;
+	background:url(http://www.zenos.dk/jkk2/image/path.jpg);
+	margin-right:auto;
+	margin-left:auto;
+}
+
+td.path {
+	text-align:left;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333366;
+}
+
+table.refs {
+	margin-left:auto;
+	margin-right:0px;
+}
+
+
+/* User */
+td.user {
+	width:150px;
+	padding-left:6px;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	padding-bottom:1px;
+	text-align:left;
+}
+
+a.user {
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#336633;
+	text-decoration:none;
+}
+
+a.user:hover {
+	text-decoration:underline;
+}
+
+
+/* Main */
+table.main {
+	width:750px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+td.vbar-left-menu {
+	vertical-align:top;
+	height:400px;
+	width:152px;
+	background:url(http://www.zenos.dk/jkk2/image/left_menu.jpg);
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	text-align:left;
+}
+
+img.lmenu-trans {
+	width:152px;
+	height:1px;
+}
+
+td.content {
+	vertical-align:top;
+	height:400px;
+	width:580px;
+	background-color:#ffffff;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+}
+
+td.content-lrmenu {
+	vertical-align:top;
+	height:400px;
+	width:436px;
+	background-color:#ffffff;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+}
+
+td.vbar-right {
+	vertical-align:top;
+	height:400px;
+	width:18px;
+	background:url(http://www.zenos.dk/jkk2/image/right.jpg);
+}
+
+img.vbar-right {
+	width:18px;
+	height:30px;
+}
+
+td.vbar-right-menu {
+	vertical-align:top;
+	height:400px;
+	width:162px;
+	background:url(http://www.zenos.dk/jkk2/image/right_menu.jpg);
+}
+
+img.vbar-right-menu {
+	width:162px;
+	height:30px;
+}
+
+img.rmenu-trans {
+	width:162px;
+	height:1px;
+}
+
+
+/* Bottom */
+img.bottom {
+	border:none;
+	width:750px;
+	height:26px;
+}
+
+div.copyright {
+	padding:0;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	color:#666666;
+}
+
+
+/** WEBMENU **/
+
+div.lmenu-header {
+	text-align:left;
+	padding-top:8px;
+	padding-left:4px;
+	padding-bottom:2px;
+	font-weight:bold;
+	font-size:11px;
+	color:#333333;
+}
+
+div.lmenu-item {
+	text-align:left;
+	padding-left:4px;
+	font-size:11px;
+}
+
+div.lmenu-misc-item {
+	text-align:left;
+	padding:0;
+	font-size:11px;
+}
+
+div.lmenu-xml-item {
+	padding-left:9px;
+	font-size:11px;
+}
+
+td.lmenu-xml-img-item {
+	padding-right:5px;
+	padding-top:1px;
+	text-align:left;
+}
+
+td.lmenu-xml-title-item {
+	text-align:left;
+}
+
+div.rmenu-header {
+	text-align:left;
+	padding-top:9px;
+	padding-left:8px;
+	padding-bottom:2px;
+	font-weight:bold;
+	font-size:11px;
+	color:#333333;
+}
+
+div.rmenu-item {
+	text-align:left;
+	padding-left:9px;
+	font-size:11px;
+}
+
+div.rmenu-misc-item {
+	text-align:left;
+	padding:0;
+	font-size:11px;
+}
+
+div.rmenu-xml-item {
+	text-align:left;
+	padding-left:9px;
+	font-size:11px;
+}
+
+td.rmenu-xml-img-item {
+	padding-right:5px;
+	padding-top:1px;
+	text-align:left;
+}
+
+td.rmenu-xml-title-item {
+	text-align:left;
+}
+
+img.xml {
+	border:none;
+	width:26px;
+	height:10px;
+}
+
+a.menu-link {
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	color:#000033;
+	text-decoration:none;
+}
+
+a.menu-link:hover {
+	text-decoration:underline;
+	color:#333366;
+}
+
+
+
+
+
+
+
+
+
+
+/* TEXT CLASSES */
+
+div.list-subtitle {
+	text-align:justify;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	font-style:italic;
+	padding:9px 12px 8px 13px;
+	border-bottom:1px solid #dddddd;
+	color:#333355;
+}
+
+div.list-author {
+	text-align:left;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:9px 12px 8px 13px;
+	border-bottom:1px solid #dddddd;
+	color:#555566;
+}
+
+div.list-frame {
+	text-align:center;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+
+td.text-item-title {
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	padding:1px 2px 1px 12px;
+	text-align:left;
+}
+
+td.text-item-text {
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	padding-left:12px;
+	padding-right:12px;
+	color:#999999;
+	text-align:left;
+}
+
+div.text-text {
+	padding:12px 12px 0px 12px;
+	text-align:justify;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+}
+
+
+/* NORMAL */
+td.verse-item-title {
+	vertical-align:top;
+	text-align:right;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:12px;
+	padding-right:8px;
+	padding-bottom:2px;
+	padding-top:2px;
+}
+
+td.verse-item-title-high {
+	vertical-align:top;
+	text-align:right;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:12px;
+	padding-right:8px;
+	padding-bottom:2px;
+	padding-top:2px;
+	background-color:#D3D1D7;
+}
+
+td.verse-item-text {
+	vertical-align:top;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	padding-right:12px;
+	padding-bottom:2px;
+	padding-top:2px;
+	text-align:justify;
+}
+
+td.verse-item-text-high {
+	vertical-align:top;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	padding-bottom:2px;
+	padding-top:2px;
+	padding-right:12px;
+	text-align:justify;
+	background-color:#D3D1D7;
+}
+
+
+
+
+/* GREEK */
+td.verse-item-title-greek {
+	vertical-align:top;
+	text-align:right;
+	font-family:symbol,verdana,arial,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:12px;
+	padding-right:8px;
+	padding-bottom:2px;
+	padding-top:2px;
+}
+
+td.verse-item-title-greek-high {
+	vertical-align:top;
+	text-align:right;
+	font-family:symbol,verdana,arial,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:12px;
+	padding-right:8px;
+	padding-bottom:2px;
+	padding-top:2px;
+	background-color:#D3D1D7;
+}
+
+td.verse-item-text-greek {
+	vertical-align:top;
+	font-family:symbol,verdana,arial,sans-serif;
+	font-size:14px;
+	padding-right:12px;
+	padding-bottom:2px;
+	padding-top:2px;
+	text-align:justify;
+}
+
+td.verse-item-text-greek-high {
+	vertical-align:top;
+	font-family:symbol,verdana,arial,sans-serif;
+	font-size:14px;
+	padding-bottom:2px;
+	padding-top:2px;
+	padding-right:12px;
+	text-align:justify;
+	background-color:#D3D1D7;
+}
+
+
+span.q {
+	color:#990000;
+	font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table.text-bottom {
+	width:100%;
+	margin-left:auto;
+	margin-left:auto;
+	border-top:1px solid #333333;
+}
+
+td.text-list-group-text {
+	padding-top:4px;
+	width:380px;
+	text-align:justify;
+	vertical-align:top;
+	color:#111111;
+	padding-right:2px;
+	font-size:11px;
+	padding-bottom:12px;
+}
+
+td.text-list-item-dot {
+	text-align:left;
+	width:5px;
+	vertical-align:top;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+td.text-list-item-name {
+	text-align:left;
+	padding:2px;
+}
+
+td.book-top-item-count {
+	font-size:11px;
+	vertical-align:top;
+	text-align:right;
+	padding:1px 8px 2px 2px;
+}
+
+td.book-top-item-title {
+	text-align:left;
+	vertical-align:top;
+	padding:1px 2px 2px 2px;
+}
+
+td.books-pane-wrap {
+	padding:4px 4px 4px 8px;
+	width:180px;
+	vertical-align:top;
+	border:1px solid #eeeeee;
+}
+
+div.p-type-cite {
+	padding:0 16px 16px 16px;
+	color:#333366;
+}
+
+div.standard-table {
+	padding-bottom:16px;
+}
+
+
+
+
+
+
+
+
+
+
+/* country_top_popular_item */
+
+td.country-top-item-rang {
+	text-align:left;
+	padding:2px 6px 2px 2px;
+	width:20px;
+	font-size:11px;
+	text-align:right;
+}
+
+td.country-top-item-flag {
+	text-align:left;
+	padding:2px;
+	width:26px;
+	font-size:11px;
+}
+
+td.country-top-item-name {
+	text-align:left;
+	padding:2px;
+	width:504px;
+	font-size:11px;
+}
+
+
+/* section_list_head_item */
+
+td.section-list-head-name {
+	padding:10px 2px 2px 0px;
+	text-align:left;
+	font-weight:bold;
+	color:#333366;
+}
+
+/* section_list_item */
+
+td.section-list-item-dot {
+	text-align:left;
+	width:5px;
+	vertical-align:top;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+td.section-list-item-name {
+	text-align:left;
+	padding:2px;
+}
+
+
+
+
+
+
+/* Info box */
+
+table.info {
+	width:266px;
+	border:1px solid #666666;
+}
+
+th.info-title {
+	font-weight:bold;
+	border-bottom:1px solid #999999;
+	font-size:10px;
+	padding-top:1px;
+	padding-bottom:2px;
+	background-color:#c4d1d7;
+	color:#333333;
+	letter-spacing:1px;
+}
+
+div.infobox-text {
+	border-top:1px solid #cccccc;
+	padding:3px 3px 3px 0px;
+	font-size:11px;
+	text-align:left;
+	color:#666666;
+}
+
+
+
+
+
+
+
+
+/* TEXT */
+
+td.text1 {
+	vertical-align:top;
+	padding-left:20px;
+	text-align:justify;
+	font-size:11px;
+}
+
+div.info-text {
+	padding:2px 12px 12px 12px;
+	font-size:11px;
+	border-bottom:1px solid #333333;
+}
+
+div.gen-text-para {
+	padding-top:8px;
+	font-size:11px;
+	text-align:justify;
+}
+
+div.img-data {
+	text-align:left;
+	padding:12px 0 12px 0;
+}
+
+div.objinfo-title {
+	font-weight:bold;
+}
+
+
+/** GENERAL **/
+
+/*DELETE!!*/
+form.standard {
+	display:inline;
+}
+
+
+/*
+ * Bold text (reduce to 1)
+ */
+span.emp {
+	font-weight:bold;
+}
+
+span.letter {
+	text-decoration:underline;
+	color:#006600;
+	font-weight:bold;
+}
+
+span.contrast {
+	color:#006600;
+	font-weight:bold;
+}
+
+
+/** MISC **/
+
+/* Standard title used on allmost all pages */
+div.standard-title {
+	text-align:left;
+	color:#333366;
+	font-family:verdana,arial,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:16px 12px 8px 12px;
+	border-bottom:1px solid #333366;
+}
+
+img.trans {
+	width:1px;
+	height:1px;
+}
+
+table.max-width {
+	width:100%;
+}
+
+input.btn {
+	/*width:50px;*/
+	height:19px;
+	border:1px solid #333333;
+	background:url(http://www.zenos.dk/jkk2/image/bg.gif);
+	font-size:12px;
+}
+
+
+
+/** LINKS **/
+
+/*
+ * General big link
+ */
+a.tlink {
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333366;
+	text-decoration:none;
+}
+
+a.tlink:hover {
+	text-decoration:underline;
+}
+
+
+/*
+ * General big link - TEXT REF
+ */
+a.tref {
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#116611;
+	background-color:#e0e0e0;
+	text-decoration:none;
+	padding:0 2px 0 2px;
+}
+
+a.tref:hover {
+	text-decoration:underline;
+}
+
+
+/*
+ * General small link
+ */
+a.rlink {
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333366;
+	text-decoration:none;
+}
+
+a.rlink:hover {
+	text-decoration:underline;
+}
+
+a.rlink-em {
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333366;
+	text-decoration:underline;
+}
+
+a.rlink-em:hover {
+	color:#000000;
+}
+
+
+/*
+ * Smallest link
+ */
+a.mlink {
+	font-family:verdana,arial,sans-serif;
+	font-size:10px;
+	color:#333366;
+	text-decoration:none;
+}
+
+a.mlink:hover {
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * SITE FRONTPAGE
+ */
+
+div.front-top-wrap {
+	padding-top:18px;
+	text-align:center;
+	padding-bottom:16px;
+}
+
+td.front-gap {
+	width:16px;
+}
+
+span.front-top-header {
+	font-weight:bold;
+	color:#333333;
+}
+
+div.front-top-text {
+	padding-top:8px;
+}
+
+td.front-top-image {
+	vertical-align:top;
+	padding-top:3px;
+}
+
+
+div.front-boxes-wrap {
+	text-align:center;
+	padding-bottom:16px;
+}
+
+td.front-boxes-top {
+	vertical-align:top;
+	width:277px;
+	text-align:left;
+}
+
+div.front-boxes-bottom {
+	padding-top:6px;
+}
+
+div.front-boxes-wrap {
+	text-align:center;
+	padding-bottom:12px;
+	padding-top:3px;
+}
+
+
+
+
+
+/*
+ * SECTION FRONTPAGES
+ */
+
+div.general-front-wrap {
+	padding-top:14px;
+	padding-left:13px;
+	padding-bottom:14px;
+	border-bottom:1px solid #333333;
+}
+
+table.general-front {
+	width:550px;
+	table-layout:fixed;
+}
+
+td.general-front-text-wrap {
+	vertical-align:top;
+	width:266px;
+	text-align:justify;color:#333333;
+	font-size:11px;
+}
+
+div.general-front-text2 {
+	padding-top:8px;
+}
+
+
+img.img-general-front {
+	border:none;
+	width:266px;
+	height:149px;
+}
+
+td.general-front-sub {
+	vertical-align:top;
+	width:266px;
+	text-align:justify;
+	color:#333333;
+	font-size:11px;
+}
+
+td.general-pane-width {
+	vertical-align:top;
+	width:266px;
+}
+
+
+

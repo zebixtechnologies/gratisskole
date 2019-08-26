@@ -1,0 +1,139 @@
+/* ENTRY */
+
+div.blog-entry-wrap {
+	padding-left:12px;
+	padding-bottom:8px;
+	border-bottom:1px solid #999999;
+}
+
+td.blog-entry-title {
+	padding-top:8px;
+	padding-bottom:4px;
+	font-weight:bold;
+	font-size:12px;
+	color:#666699;
+}
+
+td.blog-entry-date {
+	padding-bottom:3px;
+	border-bottom:1px solid #dddddd;
+}
+
+td.blog-entry-subjects {
+	padding-bottom:3px;
+	border-bottom:1px solid #dddddd;
+	text-align:right;
+	font-size:11px;
+}
+
+td.blog-entry-text {
+	padding-bottom:2px;
+	padding-top:4px;
+	font-size:11px;
+	text-align:justify;
+	color:#333333;
+}
+
+
+/* COMMENT - LIST */
+
+div.blog-comment-list-wrap {
+	border-bottom:1px solid #336666;
+}
+
+div.blog-comment-wrap {
+	padding-top:6px;
+}
+
+tr.blog-comment-info-wrap {
+	background-color:#F1F8F0;
+}
+
+td.blog-comment-comment {
+	width:330px;
+	padding:2px;
+	verdana,arial,sans-serif;
+	font-size:11px;
+}
+
+td.blog-comment-date-time {
+	width:196px;
+	padding:2px;
+	verdana,arial,sans-serif;
+	font-size:11px;
+	text-align:right;
+}
+
+td.blog-comment-name-mail {
+	width:330px;
+	padding:2px 2px 4px 2px;
+	verdana,arial,sans-serif;
+	font-size:11px;
+}
+
+td.blog-comment-url {
+	width:196px;
+	padding:2px 2px 4px 2px;
+	text-align:right;
+	verdana,arial,sans-serif;
+	font-size:11px;
+}
+
+td.blog-comment-text {
+	padding-left:2px;
+	padding-right:2px;
+	padding-top:4px;
+	padding-bottom:10px;
+	verdana,arial,sans-serif;
+	font-size:12px;
+	color:#667766;
+}
+
+/* COMMENT - FORM */
+
+div.blog-comment-header {
+	padding-top:10px;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	color:#003300;
+}
+
+div.blog-comment-form-wrap {
+	padding-top:12px;
+}
+
+td.blog-comment-form-label {
+	padding:1px;
+	padding-top:4px;
+	vertical-align:top;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+}
+
+td.blog-comment-form-input {
+	padding:1px;
+}
+
+.blog-comment-input {
+	width:250;
+	vertical-align:top;
+	border:1px solid #006666;
+}
+
+td.blog-input-btn-wrap {
+	padding-top:4px;
+}
+
+.blog-comment-btn {
+	border:1px solid #006666;
+	background-color:#D3DFD1;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+}
+
+/* ADMIN */
+
+tr.blog-admin-buttons {
+	font-size:12px;
+	background-color:#eeeeee;
+}

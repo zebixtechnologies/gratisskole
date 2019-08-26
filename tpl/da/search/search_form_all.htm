@@ -1,0 +1,65 @@
+<form style="display:inline" action="search[EXT]" method="post">
+
+<div class="search-message">[FORM[MESSAGE]]</div>
+<table border="0" cellspacing="0" cellpadding="0" class="search">
+
+<tr><th colspan="4" class="search-header">[STR[SEARCH_ALL]]</th></tr>
+
+<tr><td colspan="4" class="search-input-label"><label for="title-qry" accesskey="t">[STR[LABEL_TITLE]]:</label></td></tr>
+<tr><td colspan="4" class="search-input"><input tabindex="1" id="title-qry" style="width:247px" name="title" value="[VALUE[TITLE]]" /></td></tr>
+
+<tr><td colspan="4" class="search-input-label"><label for="author-qry" accesskey="o">[STR[LABEL_AUTHOR]]:</label></td></tr>
+<tr><td colspan="4" class="search-input"><input tabindex="2" id="author-qry" style="width:247px" name="author" value="[VALUE[AUTHOR]]" /></td></tr>
+
+<tr><td colspan="4" class="search-input-label"><label for="text-qry" accesskey="k">[STR[LABEL_FULL_TEXT]]:</label></td></tr>
+<tr><td colspan="4" class="search-input"><input tabindex="3" id="text-qry" style="width:247px" name="text" value="[VALUE[TEXT]]" /></td></tr>
+
+<tr><td colspan="4" style="height:6px"></td></tr>
+
+<tr>
+<td class="search-checkbox"><input id="checkbox-scr" tabindex="4" type="checkbox" style="" name="scr" value="1" [CHECKED[SCR]] alt="[STR[CHECK_TO_SEARCH]] [STR[OLD_TESTAMENT]]" /></td>
+<td class="search-checkbox-label"><label for="checkbox-scr" accesskey="s">[STR[LABEL_THE_SCRIPTURES]]</label></td>
+<td class="search-radiobutton"><input id="checkbox-da" tabindex="9" type="checkbox" style="" name="da" value="1" [CHECKED[DA]] alt="" /></td>
+<td class="search-radiobutton"><label for="checkbox-da" accesskey="d">[STR[LABEL_LANGUAGE_DK]]</label></td>
+</tr>
+
+<tr>
+<td class="search-checkbox"><input id="checkbox-books" tabindex="5" type="checkbox" style="" name="books" value="1" [CHECKED[BOOKS]] alt="[STR[CHECK_TO_SEARCH]] [STR[NEW_TESTAMENT]]" /></td>
+<td class="search-checkbox-label"><label for="checkbox-books" accesskey="b">[STR[LABEL_BOOKS]]</label></td>
+<td class="search-radiobutton"><input id="checkbox-en" tabindex="10" type="checkbox" style="" name="en" value="1" [CHECKED[EN]] /></td>
+<td class="search-radiobutton-label"><label for="checkbox-en" accesskey="e">[STR[LABEL_LANGUAGE_EN]]</label></td>
+</tr>
+
+<tr>
+<td class="search-checkbox"><input id="checkbox-pub" tabindex="6" type="checkbox" style="" name="pubs" value="1" [CHECKED[PUBS]] alt="[STR[CHECK_TO_SEARCH]] [STR[BOOK_OF_MORMON]]" /></td>
+<td class="search-checkbox-label"><label for="checkbox-pub" accesskey="i">[STR[LABEL_PUBS]]</label></td>
+<td class="search-radiobutton"><input id="checkbox-se" tabindex="11" type="checkbox" style="" name="se" value="1" [CHECKED[SE]] /></td>
+<td class="search-radiobutton-label"><label for="checkbox-se" accesskey="v">[STR[LABEL_LANGUAGE_SE]]</label></td>
+</tr>
+
+<tr>
+<td class="search-checkbox"><input id="checkbox-song" tabindex="7" type="checkbox" style="" name="song" value="1" [CHECKED[SONG]] alt="[STR[CHECK_TO_SEARCH]] [STR[DOCTRINE_AND_COVENANTS]]" /></td>
+<td class="search-checkbox-label"><label for="checkbox-song" accesskey="g">[STR[LABEL_SONGTEXTS]]</label></td>
+<td class="search-radiobutton"><input id="checkbox-no" tabindex="12" type="checkbox" style="" name="no" value="1" [CHECKED[NO]] /></td>
+<td class="search-radiobutton-label"><label for="checkbox-no" accesskey="n">[STR[LABEL_LANGUAGE_NO]]</label></td>
+</tr>
+
+<tr>
+<td class="search-checkbox"><input id="checkbox-lex" tabindex="8" type="checkbox" style="" name="lex" value="1" [CHECKED[LEX]] alt="[STR[CHECK_TO_SEARCH]] [STR[DOCTRINE_AND_COVENANTS]]" /></td>
+<td class="search-checkbox-label"><label for="checkbox-lex" accesskey="l">[STR[LABEL_DICTIONARIES]]</label></td>
+<td class="search-radiobutton"><input id="checkbox-de" tabindex="13" type="checkbox" style="" name="de" value="1" [CHECKED[DE]] /></td>
+<td class="search-radiobutton-label"><label for="checkbox-de" accesskey="y">[STR[LABEL_LANGUAGE_DE]]</label></td>
+</tr>
+
+<tr><td colspan="4" style="height:6px"></td></tr>
+
+<tr>
+<td colspan="4" class="search-btn-section">
+<input class="search-btn" tabindex="14" type="submit" value="[STR[FIND]]" />&nbsp;
+<input class="search-btn" tabindex="15" type="reset" value="[STR[RESET]]" />
+</td>
+</tr>
+</table>
+
+<div><input type="hidden" name="c" value="sall" /></div>
+</form>

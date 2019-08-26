@@ -1,0 +1,183 @@
+
+
+/* search - form */
+
+div.search-message {
+	color:#ff0000;
+	padding:0 0 6px 0;
+}
+
+table.search {
+	width:266px;
+	border:1px solid #999999;
+	background-color:#DDE3E3;
+}
+
+th.search-header {
+	border-bottom:1px solid #999999;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	padding:4px;
+	color:#333333;
+	background-color:#CDD3D3;
+}
+
+
+
+
+
+
+td.search-input {
+	padding:0 0 2px 9px;
+	text-align:left;
+}
+
+td.search-input-label {
+	padding:6px 0 2px 9px;
+	text-align:left;
+}
+
+input.search-text {
+	width:390px;
+	font-size:14px;
+}
+
+
+td.search-checkbox {
+	width:22px;
+	padding-left:6px;
+}
+
+td.search-checkbox-label {
+	width:152px;
+	text-align:left;
+}
+
+td.search-radiobutton {
+	width:22px;
+}
+
+td.search-radiobutton-label {
+	width:70px;
+	text-align:left;
+}
+
+
+span.search-letter {
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+input.search-btn {
+	width:60px;
+	height:22px;
+	border:1px solid #333333;
+	background:url(http://www.zenos.dk/jkk2/image/bg.gif);
+	font-size:14px;
+}
+
+input.search-btn-long {
+	width:120px;
+	height:22px;
+	border:1px solid #333333;
+	background:url(http://www.zenos.dk/jkk2/image/bg.gif);
+	font-size:14px;
+}
+
+td.search-btn-section {
+	padding:6px 0 5px 9px;
+	border-top:1px solid #999999;
+	background-color:#CDD3D3;
+	text-align:left;
+}
+
+
+
+/* search_result - header / footer */
+
+table.search-result-header {
+	width:550px;
+	border:1px solid #333333;
+}
+
+table.search-result-footer {
+	width:550px;
+}
+
+td.search-result-header-search {
+	text-align:left;
+	padding:3px 4px 4px 4px;
+	font-size:11px;
+	border-bottom:1px solid #333333;
+	background-color:#DDE3E3;
+}
+
+td.search-result-header-rows {
+	font-size:11px;
+	padding:4px 2px 4px 4px;
+	text-align:left;
+}
+
+td.search-result-header-pages {
+	font-size:11px;
+	padding:4px 4px 4px 2px;
+	text-align:right;
+}
+
+td.search-result-header-item {
+	padding:0 2px 0 2px;
+	font-size:11px;
+	width:12px;
+}
+
+
+
+/* search_result - list header */
+
+td.search-result-number {
+	text-align:right;
+	padding-right:2px;
+	font-size:11px;
+}
+
+td.search-result-reference {
+	padding-left:2px;
+	font-weight:bold;
+	color:#333333;
+	font-size:11px;
+	text-align:left;
+}
+
+
+
+/* search_result - list items*/
+
+td.search-result-item-number {
+	vertical-align:top;
+	text-align:right;
+	width:30px;
+	font-size:11px;
+	border:1px solid #999999;
+	padding:4px 3px 4px 6px;
+	background-color:#DDE3E3;
+}
+
+td.search-result-item-body {
+	vertical-align:top;
+	font-size:11px;
+	border:1px solid #cccccc;
+	padding:4px 6px 4px 6px;
+}
+
+div.search-result-item-body-ref {
+	padding:0 0 3px 0;
+	text-align:left;
+}
+
+div.search-result-item-body-text {
+	color:#555555;
+	text-align:left;
+}
+
+

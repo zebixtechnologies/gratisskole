@@ -1,0 +1,195 @@
+
+/* STYLE 0 */
+
+
+td.month-year0 {
+	background-color:#eeeeee;
+	text-align:center;
+	padding:2px;
+	border-bottom:1px solid #000000;
+	border-right:1px solid #000000;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	height:21px;
+	font-weight:bold;
+}
+
+div.calendar0 {
+	text-align:center;
+}
+
+table.calendar0 {
+	width:410px;
+	border-top:1px solid #000000;
+	border-left:1px solid #000000;
+}
+
+td.dayname0 {
+	padding:2px;
+	width:58px;
+	height:19px;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	text-align:center;
+	background-color:#C4D1D7;
+}
+
+td.day0 {
+	text-align:right;
+	vertical-align:top;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	width:58px;
+	height:37px;
+	padding:1px 3px 1px 1px;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	color:#777777;
+}
+
+a.day-link0 {
+	font-family:verdana,arial,sans-serif;
+	font-size:9px;
+	text-decoration:none;
+	color:#003333;
+}
+
+a.day-link0:hover {
+	text-decoration:underline;
+}
+
+
+
+
+/* STYLE 1 */
+
+
+td.month-year1 {
+	background-color:#eeeeee;
+	text-align:center;
+	padding:1px;
+	border-bottom:1px solid #000000;
+	border-right:1px solid #000000;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+}
+
+div.calendar1 {
+	text-align:left;
+	padding-left:6px;
+	padding-top:5px;
+	padding-bottom:4px;
+}
+
+table.calendar1 {
+	width:133px;
+	border-top:1px solid #000000;
+	border-left:1px solid #000000;
+}
+
+td.dayname1 {
+	padding:1px;
+	width:15px;
+	height:14px;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	font-family:verdana,arial,sans-serif;
+	font-size:9px;
+	text-align:center;
+	background-color:#C4D1D7;
+}
+
+td.day1 {
+	text-align:right;
+	vertical-align:top;
+	font-family:verdana,arial,sans-serif;
+	font-size:9px;
+	width:15px;
+	height:18px;
+	padding:0px;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	color:#777777;
+}
+
+a.day-link1 {
+	font-family:verdana,arial,sans-serif;
+	font-size:9px;
+	text-decoration:none;
+	color:#003333;
+}
+
+a.day-link1:hover {
+	text-decoration:underline;
+}
+
+
+
+
+/* STYLE 2 */
+
+
+
+
+td.month-year2 {
+	background-color:#eeeeee;
+	text-align:center;
+	padding:2px;
+	border-bottom:1px solid #000000;
+	border-right:1px solid #000000;
+	font-family:verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	height:21px;
+	font-weight:bold;
+}
+
+div.calendar2 {
+	text-align:center;
+}
+
+table.calendar2 {
+	width:266px; /*150*/
+	border-top:1px solid #000000;
+	border-left:1px solid #000000;
+}
+
+td.dayname2 {
+	padding:2px;
+	width:38px;
+	height:19px;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	font-family:verdana,arial,sans-serif;
+	font-size:10px;
+	text-align:center;
+	background-color:#C4D1D7;
+}
+
+td.day2 {
+	text-align:right;
+	vertical-align:top;
+	font-family:verdana,arial,sans-serif;
+	font-size:10px;
+	width:38px;
+	height:27px;
+	padding:1px;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	color:#777777;
+}
+
+a.day-link2 {
+	font-family:verdana,arial,sans-serif;
+	font-size:9px;
+	text-decoration:none;
+	color:#003333;
+}
+
+a.day-link2:hover {
+	text-decoration:underline;
+}

@@ -1,0 +1,123 @@
+
+table.list-wrap {
+	border-top:1px solid #666666;
+	border-right:1px solid #666666;
+	border-left:1px solid #666666;
+	font-family:verdana,arial,sans-serif;
+	width:266px;
+}
+
+th.list-header {
+	font-weight:bold;
+	border-bottom:1px solid #666666;
+	font-size:10px;
+	padding-top:1px;
+	padding-bottom:2px;
+	background:url(http://www.zenos.dk/jkk2/image/top_bar.jpg);
+	color:#333333;
+	letter-spacing:1px;
+}
+
+td.list-item-label {
+	text-align:left;
+	width:75px;
+	border-right:1px solid #666666;
+	border-bottom:1px solid #666666;
+	font-family:verdana,arial,sans-serif;
+	font-size:10px;
+	padding:2px;
+	text-align:left;
+	color:#666666;
+}
+
+td.list-item-value {
+	text-align:left;
+	border-bottom:1px solid #666666;
+	font-family:verdana,arial,sans-serif;
+	font-size:10px;
+	text-align:left;
+	padding:2px;
+	padding-left:4px;
+}
+
+
+
+
+/* FRONTPAGE */
+
+div.master-front-wrap {
+	padding-top:14px;
+	padding-left:13px;
+	padding-bottom:14px;
+	border-bottom:1px solid #333333;
+}
+
+td.master-front-text-wrap {
+	vertical-align:top;
+	width:266px;
+	text-align:justify;color:#333333;
+	font-size:11px;
+}
+
+img.master-front {
+	border:none;
+	width:266px;
+	height:149px;
+}
+
+td.master-front-navigation {
+	vertical-align:top;
+	width:266px;
+	text-align:justify;
+	color:#333333;
+	font-size:11px;
+}
+
+td.master-pane-width {
+	vertical-align:top;
+	width:266px;
+}
+
+
+
+/*   */
+
+
+div.master-entry-wrap {
+	text-align:left;
+	padding:12px;
+}
+
+table.master-entry-list {
+	width:400px;
+}
+
+td.entry-item-label {
+	text-align:left;
+	vertical-align:top;
+	padding:2px 2px 6px 2px;
+	font-weight:bold;
+	font-size:12px;
+	color:#333333
+}
+
+td.entry-item-value {
+	text-align:left;
+	vertical-align:top;
+	padding:2px 2px 6px 2px;
+	font-size:12px;
+}
+
+td.master-list-item-ref {
+	text-align:left;
+	vertical-align:top;
+	font-size:11px;
+	padding:2px 2px 2px 2px;
+}
+
+td.master-list-item-title {
+	text-align:left;
+	vertical-align:top;
+	font-size:11px;
+	padding:2px 2px 2px 4px;
+}

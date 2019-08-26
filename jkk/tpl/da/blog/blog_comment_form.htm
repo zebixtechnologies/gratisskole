@@ -1,0 +1,35 @@
+<!-- BLOG_COMMENT_FORM -->
+<div class="blog-comment-header">[STR[BLOG_ADD_COMMENT_TEXT]]</div>
+<div class="blog-comment-form-wrap">
+<form class="standard" action="[BLOG[FILE]]" method="GET">
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="blog-comment-form-label">[STR[NAME]]</td>
+<td class="blog-comment-form-input"><input type="text" name="name" value="" class="blog-comment-input" />&nbsp;*</td>
+</tr>
+<tr>
+<td class="blog-comment-form-label">[STR[EMAIL]]</td>
+<td class="blog-comment-form-input"><input type="text" name="email" value="" class="blog-comment-input" />&nbsp;*</td>
+</tr>
+<tr>
+<td class="blog-comment-form-label">[STR[URL]]</td>
+<td class="blog-comment-form-input"><input type="text" name="url" value="" class="blog-comment-input" /></td>
+</tr>
+<tr>
+<td class="blog-comment-form-label">[STR[COMMENT]]&nbsp;</td>
+<td class="blog-comment-form-input"><textarea name="comment" rows="4" class="blog-comment-input"></textarea>&nbsp;*</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="blog-input-btn-wrap">
+<input type="submit" value="[STR[SEND]]" class="blog-comment-btn" />&nbsp;
+<input type="reset" value="[STR[RESET]]" class="blog-comment-btn" />
+</td>
+</tr>
+</table>
+<input type="hidden" name="e" value="[ENTRY[ID]]" />
+<input type="hidden" name="c" value="i" />
+<input type="hidden" name="v" value="[INSERT[CODE]]" />
+</form>
+</div>
+<!-- /BLOG_COMMENT_FORM -->

@@ -1,0 +1,17 @@
+#[STR[CONTACT]]
+info[EXT]?id=contact|[STR[WRITE_COMMENT]]|Skriv og send en kommentar til Steffen
+
+#[STR[INFORMATION]]
+info[EXT]?id=faq|[STR[GENERAL_FAQ]]|Generelle spørgsmål og svar
+info[EXT]?id=handicap|[STR[HELP_HANDICAP]]|Information om den indbyggede handicap-hjælp på kristus.dk
+info[EXT]?id=shortcuts|[STR[SHORTCUTS]]|Beskrivelse af de tastatur-genveje som kan benyttes på kristus.dk
+
+#[STR[TECH]]
+info[EXT]?id=db|Databaser|Beskrivelse af de to databaser som teksterne er lagret i
+info[EXT]?id=compat|Kompatibilitet|Information om de browsere som kristus.dk er testet på
+info[EXT]?id=app|[STR[PROGRAMS]]|Information om de programmer som er benyttet ved udvikling af kristus.dk
+
+#[STR[FORMATS]]
+info[EXT]?id=xml|XML|Forklaring på tekstformatet XML
+info[EXT]?id=midi|MIDI|Forklaring på musikformatet MIDI
+info[EXT]?id=mp3|MP3|Forklaring på lydformatet MPeg3

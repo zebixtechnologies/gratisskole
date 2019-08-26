@@ -1,0 +1,53 @@
+<div class="standard-title">[PAGE[TITLE]]</div>
+
+<div style="padding:12px;border-bottom:1px solid #333366">
+<form style="display:inline" action="admin[EXT]" method="get">
+<table border="0" style="width:410px">
+<tr>
+<td style="width:56px">[STR[ID]]</td>
+<td style="font-weight:bold">[BITEM[ID]]</td>
+</tr>
+<tr>
+<td style="width:56px">[STR[PARENT]]</td>
+<td><input name="parent" value="[BITEM[PARENTID]]" size="53" /></td>
+</tr>
+<tr>
+<td style="width:56px">[STR[DATE]]</td>
+<td><input name="date" value="[BITEM[DATECREATED]]" size="34" />&nbsp; &nbsp; &nbsp; &nbsp; [STR[UPDATE]] <input type="checkbox" name="dateupdate" value="1" /></td>
+</tr>
+<tr>
+<td style="width:56px">[STR[TITLE]]</td>
+<td><input name="title" value="[BITEM[TITLE]]" size="53" /></td>
+</tr>
+<tr>
+<td style="width:56px;vertical-align:top;padding-top:5px">[STR[TEXT]]</td>
+<td><textarea name="text" rows="10" cols="40" />[BITEM[TEXTDATA]]</textarea></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+<input type="submit" value="[BLOG[SUBMIT]]">&nbsp;<input type="reset" value="Forfra">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<a href="admin[EXT]?c=blogrem&amp;id=[BITEM[ID]]">Slet</a>
+</td>
+</tr>
+</table>
+<input type="hidden" name="c" value="[BLOG[CMD]]" />
+<input type="hidden" name="id" value="[BITEM[ID]]" />
+
+</form>
+</div>
+
+<div style="padding:12px;border-bottom:1px solid #333366">
+<table border="1" style="width:410px">
+<tr class="blog-admin-buttons">
+<th style="width:50%">[STR[CURRENT_SUBJECTS]]</th>
+<th style="width:50%">[STR[AVAILABLE_SUBJECTS]]</th>
+</tr>
+<tr>
+<td style="width:50%;vertical-align:top">[BLOG[CURRENT_SUBJECTS]]</td>
+<td style="width:50%;vertical-align:top">[BLOG[AVAIL_SUBJECTS]]</td>
+</tr>
+</table>
+</div>
+&nbsp;

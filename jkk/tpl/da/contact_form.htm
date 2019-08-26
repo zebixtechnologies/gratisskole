@@ -1,0 +1,54 @@
+<!-- CONTACT_FORM -->
+<div class="standard-title" style="text-align:center">[PAGE[TITLE]]</div>
+
+<div class="contact-wrap">
+[TAG[MESSAGE]]<div class="contact-message">[CONTACT[MSG]]</div>[TAG[/MESSAGE]]
+
+
+<form class="standard" action="info[EXT]" method="post">
+<table border="0" cellspacing="0" cellpadding="0" class="contact-form-wrap">
+<tr>
+<td class="contact-label"><span style="font-weight:bold">[STR[SUBJECT]]</span></td>
+<td></td>
+</tr>
+<tr>
+<td class="contact-input"><input class="contact" name="subject" value="" /></td>
+<td></td>
+</tr>
+<tr>
+<td class="contact-label"><span style="font-weight:bold">[STR[NAME]]</span></td>
+<td></td>
+</tr>
+<tr>
+<td class="contact-input"><input class="contact" name="name" value="" /></td>
+<td></td>
+</tr>
+<tr>
+<td class="contact-label"><span style="font-weight:bold">[STR[EMAIL]]</span></td>
+<td></td>
+</tr>
+<tr>
+<td class="contact-input"><input class="contact" name="email" value="" /></td>
+<td></td>
+</tr>
+<tr>
+<td class="contact-label"><span style="font-weight:bold">[STR[COMMENT]]</span>&nbsp;*</td>
+<td></td>
+</tr>
+<tr>
+<td class="contact-input"><textarea class="contact" rows="5" cols="41" name="comment"></textarea></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2" class="contact-buttons">
+<input class="contact-btn" type="submit" value="[STR[SEND]]" />&nbsp;
+<input class="contact-btn" type="reset" value="[STR[RESET]]" />
+</td>
+</tr>
+</table>
+<div><input type="hidden" name="id" value="send" /></div>
+</form>
+
+
+</div>
+<!-- /CONTACT_FORM -->
